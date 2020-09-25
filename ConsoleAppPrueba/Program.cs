@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace ConsoleAppPrueba
 {
@@ -11,6 +12,13 @@ namespace ConsoleAppPrueba
             Console.WriteLine("Hola mundo");
             //Modificacion directa en el servidor remoto
             Console.WriteLine("Adios");
+
+            DateTime ahora = DateTime.Now;
+            Console.WriteLine(ahora.ToLongDateString());
+            Console.WriteLine(ahora.ToShortDateString());
+            Console.WriteLine(ahora.ToShortTimeString());
+            Console.WriteLine(ahora.ToLongTimeString());
+            Console.WriteLine(ahora.ToString("dd/MM/yyyy hh:mm:ss"));
         }
     }
 }
