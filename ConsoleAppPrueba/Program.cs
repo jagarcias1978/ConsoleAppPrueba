@@ -15,8 +15,7 @@ namespace ConsoleAppPrueba
 
             DateTime ahora = DateTime.Now;
             Console.WriteLine(ahora.ToLongDateString());
-            Console.WriteLine(ahora.ToShortDateString());
-            Console.WriteLine(ahora.ToShortTimeString());
+            Console.WriteLine("pruebaaaaaa");
             Console.WriteLine(ahora.ToLongTimeString());
             Console.WriteLine(ahora.ToString("dd/MM/yyyy hh:mm:ss"));
         }
